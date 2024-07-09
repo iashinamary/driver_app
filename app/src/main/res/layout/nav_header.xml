@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/common_spacing"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:id="@+id/avatar"
+        android:contentDescription="@string/profile_pic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/profile_icon"
+        android:layout_gravity="center"
+        android:background="@drawable/avatar_background"/>
+
+   <ImageButton
+       android:id="@+id/add_pic"
+       android:layout_width="@dimen/icon_button_min_size"
+       android:layout_height="@dimen/icon_button_min_size"
+       app:layout_constraintStart_toEndOf="@id/avatar"
+       app:layout_constraintTop_toTopOf="@id/avatar"
+       android:contentDescription="@string/add_pic"
+       android:src="@drawable/plus_icon"
+       android:background="?android:attr/selectableItemBackground"
+       android:scaleType="fitXY"
+       android:layout_marginStart="-15dp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        app:layout_constraintTop_toBottomOf="@id/avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="name name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phonenumber"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="+79990077233"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

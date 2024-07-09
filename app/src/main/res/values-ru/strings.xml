@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Driver_App</string>
+    <string name="need_permission">Нужно разрешение геолокации</string>
+    <string name="page_title">Заголовок</string>
+    <string name="home">Главная</string>
+    <string name="active_delivery">Текущие поставки</string>
+    <string name="history">История доставки</string>
+    <string name="contact_support">Связаться с администратором</string>
+    <string name="my_profile">Мой профайл</string>
+    <string name="log_in">Зайти</string>
+    <string name="log_out">Выйти</string>
+</resources>

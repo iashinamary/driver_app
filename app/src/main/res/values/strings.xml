@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Driver_App</string>
+    <string name="need_permission">Need permission</string>
+    <string name="page_title">Title</string>
+    <string name="home">Home</string>
+    <string name="active_delivery">Active delivery</string>
+    <string name="history">History</string>
+    <string name="contact_support">Contact support</string>
+    <string name="my_profile">My profile</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log out</string>
+
+</resources>

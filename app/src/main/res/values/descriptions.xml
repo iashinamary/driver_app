@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="location_button" translatable="false">location_button</string>
+    <string name="menu_icon" translatable="false">menu_icon</string>
+    <string name="home_icon" translatable="false">home_icon</string>
+    <string name="truck_icon" translatable="false">truck_icon</string>
+    <string name="package_icon" translatable="false">package_icon</string>
+    <string name="profile_icon" translatable="false">profile_icon</string>
+    <string name="arrow_back" translatable="false">arrow_back</string>
+    <string name="clipboard_icon" translatable="false">clipboard_icon</string>
+    <string name="login_icon" translatable="false">login_icon</string>
+    <string name="logout_icon" translatable="false">logout_icon</string>
+    <string name="profile_pic" translatable="false">profile_pic</string>
+    <string name="add_pic" translatable="false">add_pic</string>
+</resources>
