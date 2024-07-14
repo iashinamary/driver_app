@@ -15,10 +15,10 @@
             app:showAsAction="never" />
 
         <item
-            android:id="@+id/active_delivery"
+            android:id="@+id/active_orders"
             android:contentDescription="@string/truck_icon"
             android:icon="@drawable/truck_icon"
-            android:title="@string/active_delivery"
+            android:title="@string/active_orders"
             app:showAsAction="never" />
 
         <item

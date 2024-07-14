@@ -12,4 +12,6 @@
     <string name="logout_icon" translatable="false">logout_icon</string>
     <string name="profile_pic" translatable="false">profile_pic</string>
     <string name="add_pic" translatable="false">add_pic</string>
+    <string name="edit_button" translatable="false">edit_button</string>
+    <string name="see_order_button" translatable="false">see_order_button</string>
 </resources>

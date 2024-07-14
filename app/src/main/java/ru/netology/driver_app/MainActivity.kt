@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         val navView: NavigationView = binding.navigationView
 
         toggle = ActionBarDrawerToggle(
-            this, drawerLayout, binding.topAppBar, R.string.home, R.string.home
+            this, drawerLayout, binding.topAppBar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
         )
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()

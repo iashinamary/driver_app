@@ -4,10 +4,19 @@
     <string name="need_permission">Нужно разрешение геолокации</string>
     <string name="page_title">Заголовок</string>
     <string name="home">Главная</string>
-    <string name="active_delivery">Текущие поставки</string>
+    <string name="active_orders">Текущие поставки</string>
     <string name="history">История доставки</string>
     <string name="contact_support">Связаться с администратором</string>
     <string name="my_profile">Мой профайл</string>
     <string name="log_in">Зайти</string>
+    <string name="login">Логин</string>
     <string name="log_out">Выйти</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <string name="edit">Редактировать</string>
+    <string name="password">Пароль</string>
+    <string name="order_number">Номер заказа:</string>
+    <string name="order_status">Статус заказа</string>
+    <string name="order_placed">Заказ размещен</string>
+    <string name="cod">Наложенным платежом</string>
 </resources>
